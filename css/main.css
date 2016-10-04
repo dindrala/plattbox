@@ -1,0 +1,38 @@
+span {
+  display: none;
+}
+
+
+
+
+
+
+.ajax-file-upload-filesize {
+  width: 50px;
+  height: auto;
+  margin: 0 5px 5px 0px;
+  display: inline-block;
+  vertical-align:middle;
+}
+
+
+#fileuploader {
+  margin-left: 80%;
+  margin-top:10%;
+}
+
+.ajax-file-upload-container{
+  margin-left: 40%;
+  margin-top: 8%;
+}
+
+
+.ajax-file-upload {
+	font-size: 10px;
+  font-weight: bold;
+	cursor:pointer;
+	line-height:20px;
+	height:10px;
+  display: inline-block;
+  border: .5px solid #000000;
+  padding: 2px 4px 4px 2px;
