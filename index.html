@@ -1,19 +1,25 @@
 <html>
 <head>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://use.fontawesome.com/f458665c2c.js"></script>
   <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-<div id="fileuploader">Upload</div>
-<script>
-$(document).ready(function() {
-	$("#fileuploader").uploadFile({
-		url:"http://hayageek.com/examples/jquery/ajax-multiple-file-upload/upload.php",
-		fileName:"myfile"
-	});
-});
-</script>
-<script src=js/jquery.uploadfile.js></script>
-<script src=js/jquery.uploadfile.min.js></script>
+    <div class="uploadIconsDiv">
+      <i class="fa fa-file-text uploadIcons" aria-hidden="true"></i>
+      <i class="fa fa-folder-o uploadIcons" aria-hidden="true"></i>
+      <i class="fa fa-trash-o uploadIcons" aria-hidden="true"></i>
+    </div>
+    <div id="fileuploader">Upload</div>
+  <script>
+  $(document).ready(function() {
+  	$("#fileuploader").uploadFile({
+  		url:"http://hayageek.com/examples/jquery/ajax-multiple-file-upload/upload.php",
+  		fileName:"myfile"
+  	});
+  });
+  </script>
+  <script src=js/jquery.uploadfile.js></script>
+  <script src=js/jquery.uploadfile.min.js></script>
 </body>
 </html>

@@ -1,11 +1,33 @@
-span {
-  display: none;
+/* Upload icons styling*/
+.uploadIconsDiv{
+  position: relative;
+  color: #307651;
+  margin-left: 80.4%;
+  margin-top: 10%;
+
 }
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+/*Styling for the jQuery-upload-file*/
+
+span {
+  display: none;
+}
 
 .ajax-file-upload-filesize {
   width: 50px;
@@ -18,12 +40,10 @@ span {
 
 #fileuploader {
   margin-left: 80%;
-  margin-top:10%;
 }
 
 .ajax-file-upload-container{
   margin-left: 40%;
-  margin-top: 8%;
 }
 
 
