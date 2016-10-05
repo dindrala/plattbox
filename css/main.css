@@ -1,23 +1,65 @@
-/* Upload icons styling*/
-.uploadIconsDiv{
-  position: relative;
-  color: #307651;
-  margin-left: 80.4%;
-  margin-top: 10%;
+
+header {
+  background: #107E43;
+  width: 100%;
+  height: 6%;
+}
+
+body {
+  margin:auto;
+}
+
+.title {
+  margin-top: -6.6%;
+
+}
+
+.fa-cube {
+  color:#ffffff;
+  margin-left:13%;
+  margin-top: 1%;
+}
+
+.plattBox {
+  font-family: 'Raleway', sans-serif;
+  color: #ffffff;
+ }
+
+
+.navSearchBar {
+  background-color: #0F703C;
+  height: 100%;
+  width: 30%;
+  margin-left:55%;
+}
+
+.navSearchBarText {
+  color: #ffffff;
+  opacity: .5;
+  margin-left: 5%;
+  margin-bottom: 10%;
+  position: absolute;
+  margin-top: 2%;
+}
+
+
+.magnifyGlass {
+  color: #ffffff;
+  margin-top: 6%;
+  margin-left: 90%;
+
+
 
 }
 
 
-
-
-
-
-
-
-
-
-
-
+/* Upload icons styling*/
+.uploadIconsDiv {
+  position: relative;
+  color: #307651;
+  margin-left: 80.4%;
+  margin-top: 3%;
+}
 
 
 
@@ -25,7 +67,7 @@
 
 /*Styling for the jQuery-upload-file*/
 
-span {
+b {
   display: none;
 }
 
@@ -37,6 +79,11 @@ span {
   vertical-align:middle;
 }
 
+.ajax-file-upload-filename {
+  /*list-style: none;*/
+  color: pink;
+
+}
 
 #fileuploader {
   margin-left: 80%;
@@ -45,7 +92,6 @@ span {
 .ajax-file-upload-container{
   margin-left: 40%;
 }
-
 
 .ajax-file-upload {
 	font-size: 10px;

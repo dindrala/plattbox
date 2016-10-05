@@ -2,22 +2,33 @@
 <head>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://use.fontawesome.com/f458665c2c.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-    <div class="uploadIconsDiv">
-      <i class="fa fa-file-text uploadIcons" aria-hidden="true"></i>
-      <i class="fa fa-folder-o uploadIcons" aria-hidden="true"></i>
-      <i class="fa fa-trash-o uploadIcons" aria-hidden="true"></i>
+  <header>
+    <div class="navSearchBar">
+      <span class="navSearchBarText">Search Customers</span>
+      <i class="fa fa-search magnifyGlass" aria-hidden="true"></i>
     </div>
-    <div id="fileuploader">Upload</div>
+    <div class="title"><h4 class="plattBox"><i class="fa fa-cube fa-2x" aria-hidden="true"></i> Platt Box</h4></div>
+  </header>
+  <div class="uploadIconsDiv">
+    <i class="fa fa-file-text uploadIcons" aria-hidden="true"></i>
+    <i class="fa fa-folder-o uploadIcons" aria-hidden="true"></i>
+    <i class="fa fa-trash-o uploadIcons" aria-hidden="true"></i>
+  </div>
+
+    <!--jquery-upload-file-plugin-code-->
+
+  <div id="fileuploader">Upload</div>
   <script>
-  $(document).ready(function() {
-  	$("#fileuploader").uploadFile({
-  		url:"http://hayageek.com/examples/jquery/ajax-multiple-file-upload/upload.php",
-  		fileName:"myfile"
-  	});
-  });
+    $(document).ready(function() {
+    	$("#fileuploader").uploadFile({
+    		url:"http://hayageek.com/examples/jquery/ajax-multiple-file-upload/upload.php",
+    		fileName:"myfile"
+    	});
+    });
   </script>
   <script src=js/jquery.uploadfile.js></script>
   <script src=js/jquery.uploadfile.min.js></script>
