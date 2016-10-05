@@ -41,8 +41,8 @@
             showError: true,
             showStatusAfterSuccess: true,
             showStatusAfterError: true,
-            showFileCounter: true,
-            fileCounterStyle: "). ",
+            showFileCounter: false,
+            fileCounterStyle: false,
             showFileSize: true,
             showProgress: false,
             nestedForms: true,
@@ -195,7 +195,7 @@
 			$(obj).remove();
 
 		}
-        //This is for showing Old files to user.
+        This is for showing Old files to user.
         this.createProgress = function (filename,filepath,filesize) {
             var pd = new createProgressDiv(this, s);
             pd.progressDiv.show();
@@ -208,7 +208,7 @@
 
 
             if(s.showFileSize)
-				fileNameStr += " ("+getSizeStr(filesize)+")";
+				fileNameStr += "("+getSizeStr(filesize)+")";
 
 
             pd.filename.html(fileNameStr);
@@ -370,7 +370,7 @@
                     continue;
                 }
                 if (s.maxFileSize != -1 && files[i].size > s.maxFileSize) {
-                    if (s.showError) $("<div><font color='red'><b>" + files[i].name + "</b> " + s.sizeErrorStr + getSizeStr(s.maxFileSize) + "</font></div>").appendTo(obj.errorLog);
+                    if (s.showError) $("<div><font color='red'><b>" + files[i].name + "</b> " + s.sizeErrorStr +getSizeStr(s.maxFileSize) + "</font></div>").appendTo(obj.errorLog);
                     continue;
                 }
 	                fd.append(fileName+"[]", files[i]);
@@ -412,7 +412,7 @@
                     continue;
                 }
                 if(s.maxFileSize != -1 && files[i].size > s.maxFileSize) {
-                    if(s.showError) $("<div class='" + s.errorClass + "'><b>" + files[i].name + "</b> " + s.sizeErrorStr + getSizeStr(s.maxFileSize) + "</div>").appendTo(
+                    if(s.showError) $("<div class='" + s.errorClass + "'><b>" + files[i].name + "</b> " + s.sizeErrorStr +getSizeStr(s.maxFileSize) + "</div>").appendTo(
                         obj.errorLog);
                     continue;
                 }
@@ -444,7 +444,7 @@
                 else fileNameStr = files[i].name;
 
 				if(s.showFileSize)
-				fileNameStr += " ("+getSizeStr(files[i].size)+")";
+				fileNameStr += "("+getSizeStr+(files[i].size)+")";
 
 				pd.filename.html(fileNameStr);
                 var form = $("<form style='display:block; position:absolute;left: 150px;' class='" + obj.formGroup + "' method='" + s.method + "' action='" +
