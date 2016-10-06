@@ -255,14 +255,72 @@ b {
       font-size: 22px;
     }
 
-    .hamburger-icon {
-      color: #000000;
-      margin-left: 90%;
-      margin-top: -10.5%;
+
+    .uploadIconsDiv {
+      display:none;
+    }
+
+    .headShot {
+      display: none;
+    }
+
+    #fileuploader {
+      display: none;
+    }
+
+    .sideMenu {
+      display:none;
     }
 
 
+    /*Hamburger Menu Styling*/
 
+    .mobile {
+    display: block;
+    background-color: #ffffff;
+    }
+    .mobile a {
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
+    display: block;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 20px 5px 20px;
+    margin-left: 12%;
+    border-bottom: 1px solid #D3D3D3;
+    }
+
+
+    .mobile a:last-child {
+    padding-bottom: 20px;
+    }
+    .mobile a:hover {
+    color: #fff;
+    }
+    button {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    border: 0;
+    text-indent: 200%;
+    /*overflow: hidden;*/
+    background: url(/hamburger.png) center no-repeat;
+    background-size: 80%;
+    width: 30px;
+    height: 30px;
+    outline: none;
+    transition: all 400ms ease;
+    }
+
+    #nike {
+      margin-left: 7%;
+      margin-bottom: -3%;
+    }
+
+   .fa-1 {
+     padding-right: 27px;
+
+   }
 
 
 
