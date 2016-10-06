@@ -145,6 +145,9 @@ li .fa {
   opacity: 0;
 }
 
+
+
+
 /*Styling for the jQuery-upload-file*/
 
 b {
@@ -191,3 +194,83 @@ b {
   display: inline-block;
   border: .5px solid #000000;
   padding: 2px 4px 4px 2px;
+}
+
+
+
+
+  /*Mobile iphone 6*/
+
+  @media (max-width: 400px) {
+
+    header {
+      background: #107E43;
+      max-width: 100%;
+      height: 8%;
+
+
+    }
+
+    body {
+      margin:auto;
+    }
+
+    .title {
+      margin-top: -69px;
+      display: block;
+      margin-right: 65%;
+
+
+    }
+
+    .fa-cube {
+      color:#000000;
+      margin-left:13%;
+      margin-top: 1%;
+    }
+
+    .plattBox {
+      font-family: 'Raleway', sans-serif;
+      color: #000000;
+     }
+
+
+    div.navSearchBar {
+    background-color: #107E43;
+    height: 100%;
+    width: 30%;
+    margin-left: 55%;
+
+    }
+
+    .navSearchBarText {
+      display: none;
+      }
+
+
+    .magnifyGlass {
+      color: #000000;
+      margin-top: 16%;
+      margin-left: 87%;
+      font-size: 22px;
+    }
+
+    .hamburger-icon {
+      color: #000000;
+      margin-left: 90%;
+      margin-top: -10.5%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
