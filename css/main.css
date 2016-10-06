@@ -83,11 +83,12 @@ body {
   font-family: 'Raleway', sans-serif;
   font-size: 70%;
   width: 1%;
-  margin-left: 23%;
+  margin-top: -2%;
+  margin-right: 18%;
+  float: right;
 }
 
 .action {
-  float: right;
   line-height: 20px;
   width: 20px;
   position: relative;
@@ -97,6 +98,7 @@ body {
   background: #ffffff;
   cursor: pointer;
   border:0;
+  font-weight: bold;
 
 }
 
@@ -164,6 +166,7 @@ b {
 .ajax-file-upload-container{
   margin-left: 40%;
   margin-top: 13%;
+
 
 }
 
