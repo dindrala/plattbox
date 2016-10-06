@@ -74,6 +74,32 @@ body {
   float: left;
 }
 
+/*Headshot Picture and Side Menu Styling*/
+
+.headShot {
+  float: left;
+  margin-right: 32%;
+  margin-top: -11%;
+  margin-left: 11%;
+}
+
+.sideMenu {
+  float: left;
+  margin-left: 9.9%;
+  margin-top: -4%;
+}
+
+.sideMenuList {
+  list-style: none;
+}
+
+.listClass {
+  margin-bottom: 15px;
+}
+
+li .fa {
+  padding-right: 17px;
+}
 
 
 
