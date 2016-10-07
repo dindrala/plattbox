@@ -1,4 +1,4 @@
-
+@media (min-width: 400px) {
 
 header {
   background: #107E43;
@@ -110,7 +110,7 @@ li .fa {
   font-family: 'Raleway', sans-serif;
   font-size: 70%;
   width: 1%;
-  margin-top: 30%;
+  margin-top: -1%;
   margin-right: 18%;
   float: right;
 }
@@ -197,6 +197,18 @@ b {
   border: .5px solid #000000;
   padding: 2px 4px 4px 2px;
 }
+
+.bell,#boxHillsboro,.mobile-search-bar,.logoimg,.toggle, hr {
+  display: none;
+}
+
+
+}
+
+
+
+/******************************/
+
 
 
 
@@ -340,10 +352,9 @@ b {
   margin-left: 17%;
   float: left
 }
+
 .fileName {
   float:left;
-
-
 }
 
 .fileSize {
@@ -384,6 +395,11 @@ height: 17%;
   float: left;
   margin-top: -72%;
   margin-left: -169%;
+
+}
+
+.bell,#boxHillsboro,.mobile-search-bar,.logoimg,.toggle, hr{
+  display: block;
 }
 
 #boxHillsboro {
@@ -462,20 +478,5 @@ hr {
   line-height: 122%
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
