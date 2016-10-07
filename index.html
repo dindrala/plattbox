@@ -1,105 +1,100 @@
 <html>
+
 <head>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="https://use.fontawesome.com/f458665c2c.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-  <link href="css/main.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://use.fontawesome.com/f458665c2c.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
 </head>
+
 <body>
-  <header>
-    <div class="navSearchBar">
-      <span class="navSearchBarText">Search Customers</span>
-      <i class="fa fa-search magnifyGlass" aria-hidden="true"></i>
-    </div>
-    <div class="title">
-      <h4 class="plattBox"><i class="fa fa-cube fa-2x" aria-hidden="true"></i> Platt Box</h4>
-    </div>
-    <nav class="mobile">
-			<button class="toggle"></button>
-			<div class="showme">
-        <div id="nike"><img src="Nike.png" alt="nikelogo"/></div>
-				<a href="#"><i class="fa fa-clock-o fa-1" aria-hidden="true"></i>Recent</a>
-				<a href="#"><i class="fa fa-file-o fa-1" aria-hidden="true"></i>Files</a>
-				<a href="#"><i class="fa fa-folder fa-1" aria-hidden="true"></i>Folders</a>
-				<a href="#"><i class="fa fa-file-image-o fa-1" aria-hidden="true"></i>Photos</a>
-        <a href="#"><i class="fa fa-bell-o fa-1" aria-hidden="true"></i>Notifications</a>
-        <a href="#"><i class="fa fa-sign-out fa-1" aria-hidden="true"></i>Sign Out</a>
-			</div>
-		</nav>
-  </header>
-  <div class="mobile-logo">
-    <div id="mobile-logo-img">
-      <img src="mobile-logo.png" class="logoimg" alt="" />
-    <div>
-  </div>
-  <div class="uploadIconsDiv">
-    <i class="fa fa-file-text uploadIcons" aria-hidden="true"></i>
-    <i class="fa fa-folder-o uploadIcons" aria-hidden="true"></i>
-    <i class="fa fa-trash-o uploadIcons" aria-hidden="true"></i>
-  </div>
-  <div class="nameSizeParent">
-    <span class="fileName">Name</span>
-    <span class="fileSize">Size</span>
-  </div>
-  <div class="headShot">
-    <img src="headshot.png" alt="headshot" />
-  </div>
-  <div class="sideMenu">
-    <ul class="sideMenuList">
-      <li class="listClass"><i class="fa fa-clock-o" aria-hidden="true"></i>Recent</li>
-      <li class="listClass"><i class="fa fa-file-o" aria-hidden="true"></i>Files</li>
-      <li class="listClass"><i class="fa fa-folder" aria-hidden="true"></i>Folders</li>
-      <li class="listClass"><i class="fa fa-file-image-o" aria-hidden="true"></i>Photos</li>
-      <li class="listClass"><i class="fa fa-bell-o" aria-hidden="true"></i>Notifications</li>
-      <li class="listClass"><i class="fa fa-sign-out" aria-hidden="true"></i>Sign Out</li>
-    </ul>
-  </div>
-
-
-
-
-
-
-
-
-
-  <!--jquery-upload-file-plugin-code-->
-  <div>
-  <div id="fileuploader">Upload</div>
-  <div class="container">
-  <div class="action">
-    <button style="transform: rotate(90deg); font-weight:1;" id="text">...</button>
-    <div class="bell"><i class="fa fa-bell-o" aria-hidden="true"></i></div>
-    <div id="boxHillsboro"><span class="box">BOX/</span><span class="hillsboro">Hillsboro/</span></div>
-    <hr>
-    <div class="mobile-search-bar"><img src="mobile-search-bar.png" alt="mobile-search" /></div>
-    <ul class="menu">
-      <li>Rename</li>
-      <li>Move</li>
-      <li>Copy</li>
-      <li>Comment</li>
-      <li>Attach to Customer</li>
-      <li>Delete</li>
-    </ul>
-  </div>
-</div>
-</div>
-  <script>
-    $(document).ready(function() {
-    	$("#fileuploader").uploadFile({
-    		url:"http://hayageek.com/examples/jquery/ajax-multiple-file-upload/upload.php",
-    		fileName:"myfile"
-    	});
-    });
-    </script>
-    <script>
-  $(".showme").hide();
-  $('button.toggle').click(function() {
-  $( "button" ).last().toggleClass( "expanded" );
-  $('.showme').slideToggle();
-  });
-  </script>
-  <script src=js/jquery.uploadfile.js></script>
-  <script src=js/jquery.uploadfile.min.js></script>
+    <header>
+        <div class="navSearchBar">
+            <span class="navSearchBarText">Search Customers</span>
+            <i class="fa fa-search magnifyGlass" aria-hidden="true"></i>
+        </div>
+        <div class="title">
+            <h4 class="plattBox"><i class="fa fa-cube fa-2x" aria-hidden="true"></i> Platt Box</h4>
+        </div>
+        <nav class="mobile">
+            <button class="toggle"></button>
+            <div class="showme">
+                <div id="nike"><img src="Nike.png" alt="nikelogo" /></div>
+                <a href="#"><i class="fa fa-clock-o fa-1" aria-hidden="true"></i>Recent</a>
+                <a href="#"><i class="fa fa-file-o fa-1" aria-hidden="true"></i>Files</a>
+                <a href="#"><i class="fa fa-folder fa-1" aria-hidden="true"></i>Folders</a>
+                <a href="#"><i class="fa fa-file-image-o fa-1" aria-hidden="true"></i>Photos</a>
+                <a href="#"><i class="fa fa-bell-o fa-1" aria-hidden="true"></i>Notifications</a>
+                <a href="#"><i class="fa fa-sign-out fa-1" aria-hidden="true"></i>Sign Out</a>
+            </div>
+        </nav>
+    </header>
+    <div class="mobile-logo">
+        <div id="mobile-logo-img">
+            <img src="mobile-logo.png" class="logoimg" alt="" />
+            <div>
+            </div>
+            <div class="uploadIconsDiv">
+                <i class="fa fa-file-text uploadIcons" aria-hidden="true"></i>
+                <i class="fa fa-folder-o uploadIcons" aria-hidden="true"></i>
+                <i class="fa fa-trash-o uploadIcons" aria-hidden="true"></i>
+            </div>
+            <div class="nameSizeParent">
+                <span class="fileName">Name</span>
+                <span class="fileSize">Size</span>
+            </div>
+            <div class="headShot">
+                <img src="headshot.png" alt="headshot" />
+            </div>
+            <div class="sideMenu">
+                <ul class="sideMenuList">
+                    <li class="listClass"><i class="fa fa-clock-o" aria-hidden="true"></i>Recent</li>
+                    <li class="listClass"><i class="fa fa-file-o" aria-hidden="true"></i>Files</li>
+                    <li class="listClass"><i class="fa fa-folder" aria-hidden="true"></i>Folders</li>
+                    <li class="listClass"><i class="fa fa-file-image-o" aria-hidden="true"></i>Photos</li>
+                    <li class="listClass"><i class="fa fa-bell-o" aria-hidden="true"></i>Notifications</li>
+                    <li class="listClass"><i class="fa fa-sign-out" aria-hidden="true"></i>Sign Out</li>
+                </ul>
+            </div>
+            <!--jquery-upload-file-plugin-code-->
+            <div>
+                <div id="fileuploader">Upload</div>
+                <div class="container">
+                    <div class="action">
+                        <button style="transform: rotate(90deg); font-weight:1;" id="text">...</button>
+                        <div class="bell"><i class="fa fa-bell-o" aria-hidden="true"></i></div>
+                        <div id="boxHillsboro"><span class="box">BOX/</span><span class="hillsboro">Hillsboro/</span></div>
+                        <hr>
+                        <div class="mobile-search-bar"><img src="mobile-search-bar.png" alt="mobile-search" /></div>
+                        <ul class="menu">
+                            <li>Rename</li>
+                            <li>Move</li>
+                            <li>Copy</li>
+                            <li>Comment</li>
+                            <li>Attach to Customer</li>
+                            <li>Delete</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <script>
+                $(document).ready(function() {
+                    $("#fileuploader").uploadFile({
+                        url: "http://hayageek.com/examples/jquery/ajax-multiple-file-upload/upload.php",
+                        fileName: "myfile"
+                    });
+                });
+            </script>
+            <!--Hamburger Menu Script--->
+            <script>
+                $(".showme").hide();
+                $('button.toggle').click(function() {
+                    $("button").last().toggleClass("expanded");
+                    $('.showme').slideToggle();
+                });
+            </script>
+            <script src=js/jquery.uploadfile.js></script>
+            <script src=js/jquery.uploadfile.min.js></script>
 </body>
+
 </html>
