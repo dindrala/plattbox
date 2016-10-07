@@ -15,15 +15,15 @@
       <h4 class="plattBox"><i class="fa fa-cube fa-2x" aria-hidden="true"></i> Platt Box</h4>
     </div>
     <nav class="mobile">
-			<button class="toggle"><class="hamburger-icon"><i class="fa fa-bars" aria-hidden="true"></i></button>
+			<button class="toggle"></button>
 			<div class="showme">
         <div id="nike"><img src="Nike.png" alt="nikelogo"/></div>
-				<a href="#"><class="listClass"><i class="fa fa-clock-o fa-1" aria-hidden="true"></i>Recent</a>
-				<a href="#"><class="listClass"><i class="fa fa-file-o fa-1" aria-hidden="true"></i>Files</a>
-				<a href="#"><class="listClass"><i class="fa fa-folder fa-1" aria-hidden="true"></i>Folders</a>
-				<a href="#"><class="listClass"><i class="fa fa-file-image-o fa-1" aria-hidden="true"></i>Photos</a>
-        <a href="#"><class="listClass"><i class="fa fa-bell-o fa-1" aria-hidden="true"></i>Notifications</a>
-        <a href="#"><class="listClass"><i class="fa fa-sign-out fa-1" aria-hidden="true"></i>Sign Out</li></a>
+				<a href="#"><i class="fa fa-clock-o fa-1" aria-hidden="true"></i>Recent</a>
+				<a href="#"><i class="fa fa-file-o fa-1" aria-hidden="true"></i>Files</a>
+				<a href="#"><i class="fa fa-folder fa-1" aria-hidden="true"></i>Folders</a>
+				<a href="#"><i class="fa fa-file-image-o fa-1" aria-hidden="true"></i>Photos</a>
+        <a href="#"><i class="fa fa-bell-o fa-1" aria-hidden="true"></i>Notifications</a>
+        <a href="#"><i class="fa fa-sign-out fa-1" aria-hidden="true"></i>Sign Out</a>
 			</div>
 		</nav>
   </header>
@@ -69,6 +69,8 @@
   <div class="container">
   <div class="action">
     <button style="transform: rotate(90deg); font-weight:1;" id="text">...</button>
+    <div class="bell"><i class="fa fa-bell-o" aria-hidden="true"></i></div>
+    <div id="boxHillsboro"><span class="box">BOX/</span><span class="hillsboro">Hillsboro/</span></div>
     <ul class="menu">
       <li>Rename</li>
       <li>Move</li>
@@ -90,7 +92,7 @@
     </script>
     <script>
   $(".showme").hide();
-  $('button').click(function() {
+  $('button.toggle').click(function() {
   $( "button" ).last().toggleClass( "expanded" );
   $('.showme').slideToggle();
   });
