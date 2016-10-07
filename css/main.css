@@ -101,6 +101,7 @@ li .fa {
   padding-right: 17px;
 }
 
+/*****************************/
 
 
 /* Uploaded Files Drop Down Menu Styling*/
@@ -109,7 +110,7 @@ li .fa {
   font-family: 'Raleway', sans-serif;
   font-size: 70%;
   width: 1%;
-  margin-top: -2%;
+  margin-top: 30%;
   margin-right: 18%;
   float: right;
 }
@@ -120,7 +121,7 @@ li .fa {
   position: relative;
 }
 
-.text {
+#text {
   background: #ffffff;
   cursor: pointer;
   border:0;
@@ -128,7 +129,7 @@ li .fa {
 
 }
 
-.text:focus ~ .menu {
+#text:focus ~ .menu {
   opacity: 1;
 }
 
@@ -145,6 +146,7 @@ li .fa {
   opacity: 0;
 }
 
+/*****************************/
 
 
 
@@ -197,6 +199,14 @@ b {
 }
 
 
+
+
+
+
+
+
+
+/******************************/
 
 
   /*Mobile iphone 6*/
@@ -297,7 +307,7 @@ b {
     .mobile a:hover {
     color: #fff;
     }
-    button {
+    button.toggle {
     position: absolute;
     top: 15px;
     right: 15px;
@@ -321,6 +331,40 @@ b {
      padding-right: 27px;
 
    }
+
+/********************************/
+
+.nameSizeParent {
+  font-family: 'Raleway', sans-serif;
+  font-size: 70%;
+  margin-top: 181%;
+  margin-left: 23%;
+  float: left
+}
+
+
+.mobile-logo {
+background-color: #3D3B3E;
+max-width: 100%;
+height: 17%;
+}
+
+#mobile-logo-img {
+  margin-left: 33%;
+  margin-top: 3%;
+  float: left;
+
+}
+
+.container {
+  font-family: 'Raleway', sans-serif;
+  font-size: 70%;
+  width: 1%;
+  margin-top: 18%;
+  margin-right: -94%;
+  float: right;
+}
+
 
 
 
