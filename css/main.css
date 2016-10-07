@@ -337,10 +337,20 @@ b {
   font-family: 'Raleway', sans-serif;
   font-size: 70%;
   margin-top: 181%;
-  margin-left: 23%;
+  margin-left: 17%;
   float: left
 }
+.fileName {
+  float:left;
 
+
+}
+
+.fileSize {
+  float:right;
+  padding-left: 17px;
+
+}
 
 .mobile-logo {
 background-color: #3D3B3E;
@@ -392,7 +402,19 @@ height: 17%;
 hr {
   margin-left: -356px;
   margin-right: -21px;
-  color:#D3D3D3;
+  border: .1px solid #D3D3D3;
+}
+
+.mobile-search-bar {
+  float: right;
+  margin-right: 170%;
+  margin-top: 36%;
+
+}
+
+.nameSizeParent:hover {
+  color: #107E43;
+  text-decoration: underline;
 }
 
 
