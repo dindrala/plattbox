@@ -174,10 +174,10 @@
         margin: auto;
     }
     .title {
-      position: absolute;
-  display: block;
-  margin-right: 65%;
-  width: 35%;
+        position: absolute;
+        display: block;
+        margin-right: 65%;
+        width: 35%;
     }
     .fa-cube {
         color: #ffffff;
@@ -227,7 +227,6 @@
         text-decoration: none;
         font-size: 1.1em;
         padding: 20px 5px 20px;
-
         background-color: #ffffff;
         margin-left: 40px;
     }
@@ -249,23 +248,23 @@
         transition: all 400ms ease;
     }
     #nike {
-      margin-left: -4%;
-margin-bottom: -3%;
-margin-bottom: -3%;
-z-index: 9999;
-position: relative;
+        margin-left: -4%;
+        margin-bottom: -3%;
+        margin-bottom: -3%;
+        z-index: 9999;
+        position: relative;
     }
     #nike img {
-      padding-left: 40px;
+        padding-left: 40px;
     }
     .fa-1 {
         padding-right: 27px;
     }
     .showme {
-      background-color: #fff;
-      position: relative;
-      left: 0px;
-      z-index: 9999;
+        background-color: #fff;
+        position: relative;
+        left: 0px;
+        z-index: 9999;
     }
     /********************************/
     .nameSizeParent {
@@ -373,9 +372,9 @@ position: relative;
         line-height: 122%
     }
     .menu li {
-      height: 30px;
-      width: 100%;
-      border-bottom: 1px solid #D3D3D3;
-      margin-top: 10px;
+        height: 30px;
+        width: 100%;
+        border-bottom: 1px solid #D3D3D3;
+        margin-top: 10px;
     }
 }
